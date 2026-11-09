@@ -1,1 +1,1 @@
-{"name":"recovery-web-was","private":true,"scripts":{"start":"node server.js"}}
+{"name":"recovery-was","private":true,"scripts":{"start":"node server.js"}}
