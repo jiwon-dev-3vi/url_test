@@ -1,0 +1,18 @@
+:root { font-family: system-ui, sans-serif; color: #152438; background: #f3f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+header { background: white; border-bottom: 1px solid #dce4ec; }
+nav, main, footer { max-width: 68rem; margin: auto; padding: 1.2rem; }
+nav { display: flex; flex-wrap: wrap; gap: 1.2rem; align-items: center; }
+nav strong { margin-right: auto; }
+a { color: #125c54; }
+.hero { background: #143831; color: white; padding: 2rem; border-radius: 1rem; }
+.hero a { color: #cef9d9; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; }
+.card, .panel { background: white; border: 1px solid #dce4ec; padding: 1rem; border-radius: .75rem; }
+.panel { margin: 1rem 0; overflow: auto; }
+label { display: inline-flex; align-items: center; gap: .4rem; margin: .4rem .7rem .4rem 0; }
+input, select, button { font: inherit; padding: .5rem; }
+table { width: 100%; border-collapse: collapse; text-align: left; }
+th, td { border-bottom: 1px solid #dce4ec; padding: .6rem; white-space: nowrap; }
+footer { color: #516376; font-size: .9rem; }
