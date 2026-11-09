@@ -1,0 +1,58 @@
+[
+  {
+    "id": "gateway",
+    "name": "엣지 게이트웨이",
+    "category": "network",
+    "status": "operational",
+    "owner": "플랫폼 운영"
+  },
+  {
+    "id": "deployments",
+    "name": "배포 파이프라인",
+    "category": "platform",
+    "status": "operational",
+    "owner": "개발 생산성"
+  },
+  {
+    "id": "runtime",
+    "name": "WAS 런타임",
+    "category": "platform",
+    "status": "degraded",
+    "owner": "런타임 운영"
+  },
+  {
+    "id": "artifacts",
+    "name": "산출물 저장소",
+    "category": "storage",
+    "status": "operational",
+    "owner": "플랫폼 운영"
+  },
+  {
+    "id": "audit",
+    "name": "감사 로그",
+    "category": "security",
+    "status": "operational",
+    "owner": "보안 운영"
+  },
+  {
+    "id": "metrics",
+    "name": "서비스 지표",
+    "category": "observability",
+    "status": "maintenance",
+    "owner": "관측성"
+  },
+  {
+    "id": "database",
+    "name": "데이터베이스",
+    "category": "storage",
+    "status": "operational",
+    "owner": "데이터 운영"
+  },
+  {
+    "id": "notifications",
+    "name": "알림 발송",
+    "category": "observability",
+    "status": "operational",
+    "owner": "관측성"
+  }
+]

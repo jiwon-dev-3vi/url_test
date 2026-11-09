@@ -1,0 +1,11 @@
+{
+  "service": "northstar-catalog",
+  "version": "1.1.0",
+  "description": "서비스 카탈로그와 장애 현황 API",
+  "links": {
+    "health": "/healthz",
+    "services": "/api/v1/services",
+    "incidents": "/api/v1/incidents",
+    "overview": "/api/v1/overview"
+  }
+}
