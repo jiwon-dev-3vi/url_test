@@ -1,0 +1,58 @@
+[
+  {
+    "id": "OPS-287",
+    "title": "배포 승인 이력 조회",
+    "serviceId": "deployments",
+    "status": "in-progress",
+    "priority": "medium"
+  },
+  {
+    "id": "OPS-289",
+    "title": "WAS 시작 로그 확인",
+    "serviceId": "runtime",
+    "status": "open",
+    "priority": "high"
+  },
+  {
+    "id": "OPS-292",
+    "title": "산출물 다운로드 권한 검토",
+    "serviceId": "artifacts",
+    "status": "open",
+    "priority": "medium"
+  },
+  {
+    "id": "OPS-294",
+    "title": "TLS 갱신 점검",
+    "serviceId": "gateway",
+    "status": "resolved",
+    "priority": "low"
+  },
+  {
+    "id": "OPS-301",
+    "title": "정기 작업 전후 지표 비교",
+    "serviceId": "metrics",
+    "status": "in-progress",
+    "priority": "medium"
+  },
+  {
+    "id": "OPS-306",
+    "title": "감사 로그 보관 기간 확인",
+    "serviceId": "audit",
+    "status": "resolved",
+    "priority": "low"
+  },
+  {
+    "id": "OPS-310",
+    "title": "DB 연결 제한 검토",
+    "serviceId": "database",
+    "status": "open",
+    "priority": "medium"
+  },
+  {
+    "id": "OPS-315",
+    "title": "복구 결과 알림 개선",
+    "serviceId": "notifications",
+    "status": "open",
+    "priority": "low"
+  }
+]

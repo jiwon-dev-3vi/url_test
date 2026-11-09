@@ -1,0 +1,26 @@
+[
+  {
+    "id": "INC-1042",
+    "serviceId": "runtime",
+    "severity": "medium",
+    "status": "investigating",
+    "title": "WAS 시작 지연",
+    "summary": "일부 워커의 이미지 준비 시간을 조사하고 있습니다."
+  },
+  {
+    "id": "INC-1039",
+    "serviceId": "metrics",
+    "severity": "low",
+    "status": "monitoring",
+    "title": "지표 조회 지연",
+    "summary": "인덱스 재구성 후 조회 지연을 확인하고 있습니다."
+  },
+  {
+    "id": "INC-1031",
+    "serviceId": "gateway",
+    "severity": "high",
+    "status": "resolved",
+    "title": "일부 도메인의 연결 실패",
+    "summary": "라우팅 설정을 되돌리고 정상 응답을 확인했습니다."
+  }
+]

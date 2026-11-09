@@ -1,1 +1,9 @@
-{"name":"recovery-web-was","private":true,"scripts":{"start":"node server.js"}}
+{
+  "name": "recovery-web-was",
+  "version": "1.1.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
