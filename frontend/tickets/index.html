@@ -6,6 +6,6 @@
 <link rel="stylesheet" href="/assets/portal.css">
 <script defer src="/assets/tickets.js"></script>
 </head>
-<body><header><nav aria-label="주 메뉴"><strong>Northstar 운영 포털</strong><a href="/">운영 개요</a><a href="/tickets/">지원 요청</a><a href="/status/">서비스 상태</a></nav></header>
+<body><header><nav aria-label="주 메뉴"><strong><a href="/home" aria-label="Northstar 운영 포털 홈">Northstar 운영 포털</a></strong><a href="/home">운영 개요</a><a href="/tickets/">지원 요청</a><a href="/status/">서비스 상태</a></nav></header>
 <main><h1>지원 요청</h1><form id="filters"><label>검색<input name="q" type="search"></label><label>상태<select name="status"><option value="">전체</option><option value="open">접수</option><option value="in-progress">진행 중</option><option value="resolved">완료</option></select></label><button>조회</button></form><section class="panel"><p id="feedback" role="status"></p><table><thead><tr><th>ID</th><th>제목</th><th>서비스</th><th>상태</th><th>우선순위</th></tr></thead><tbody id="tickets"></tbody></table></section></main><footer>Northstar 운영팀</footer>
 </body></html>
