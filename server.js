@@ -7,6 +7,7 @@ const { serveFrontend } = require('./routes/frontend');
 // The dashboard entry and assets are maintained in frontend/.
 const frontendRoot = path.join(__dirname, 'public');
 
+// 주석 추가로 수정본 패치 테스트
 http.createServer(requestHandler(async (url, response) => {
   if (handleApi(url, response)) return;
   if (await serveFrontend(frontendRoot, url.pathname, response)) return;
