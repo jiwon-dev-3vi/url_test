@@ -13,6 +13,7 @@ async function serveFrontend(root, pathname, response) {
     if (error.code === 'ENOENT') return false;
     throw error;
   }
+  // Use the file extension to select the content type for pages and assets.
   response.writeHead(200, { 'Content-Type': mime[path.extname(file)] + '; charset=utf-8' });
   response.end(body);
   return true;
