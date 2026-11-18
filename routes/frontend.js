@@ -1,6 +1,13 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
-const pages = new Map([['/home', 'home/index.html'], ['/home/', 'home/index.html'], ['/tickets/', 'tickets/index.html'], ['/status/', 'status/index.html']]);
+const pages = new Map([
+  ['/dashboard', 'home/index.html'],
+  ['/dashboard/', 'home/index.html'],
+  ['/home', 'home/index.html'],
+  ['/home/', 'home/index.html'],
+  ['/tickets/', 'tickets/index.html'],
+  ['/status/', 'status/index.html'],
+]);
 const mime = { '.css': 'text/css', '.js': 'text/javascript', '.html': 'text/html' };
 
 async function serveFrontend(root, pathname, response) {
