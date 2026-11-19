@@ -8,6 +8,7 @@ const { serveFrontend } = require('./routes/frontend');
 const frontendRoot = path.join(__dirname, 'frontend');
 
 // 주석 추가로 수정본 패치 테스트
+// 주석 추가로 수정본 패치 테스트2
 http.createServer(requestHandler(async (url, response) => {
   if (handleApi(url, response)) return;
   if (await serveFrontend(frontendRoot, url.pathname, response)) return;
