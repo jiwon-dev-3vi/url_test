@@ -3,6 +3,7 @@ const path = require('node:path');
 const pages = new Map([['/dashboard', 'index.html'], ['/tickets/', 'tickets/index.html'], ['/status/', 'status/index.html']]);
 const mime = { '.css': 'text/css', '.js': 'text/javascript', '.html': 'text/html' };
 
+// 주석 테스트 2
 async function serveFrontend(root, pathname, response) {
   const file = pages.get(pathname) || (/^\/assets\/[a-z0-9-]+\.(?:css|js)$/.test(pathname) ? pathname.slice(1) : null);
   if (!file) return false;
