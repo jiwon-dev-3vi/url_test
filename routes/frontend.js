@@ -1,11 +1,12 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
+const dashboardPage = 'dashboard/index.html';
 const pages = new Map([
-  ['/', 'home/index.html'],
-  ['/dashboard', 'home/index.html'],
-  ['/dashboard/', 'home/index.html'],
-  ['/home', 'home/index.html'],
-  ['/home/', 'home/index.html'],
+  ['/', dashboardPage],
+  ['/dashboard', dashboardPage],
+  ['/dashboard/', dashboardPage],
+  ['/home', dashboardPage],
+  ['/home/', dashboardPage],
   ['/tickets/', 'tickets/index.html'],
   ['/status/', 'status/index.html'],
 ]);
