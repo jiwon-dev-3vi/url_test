@@ -1,6 +1,6 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
-const pages = new Map([['/dashboard', 'index.html'], ['/tickets/', 'tickets/index.html'], ['/status/', 'status/index.html']]);
+const pages = new Map([['/', 'index.html'], ['/dashboard', 'index.html'], ['/tickets/', 'tickets/index.html'], ['/status/', 'status/index.html']]);
 const mime = { '.css': 'text/css', '.js': 'text/javascript', '.html': 'text/html' };
 
 // 주석 테스트 2
